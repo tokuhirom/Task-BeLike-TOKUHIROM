@@ -23,7 +23,7 @@ requires "Spellunker";
 requires "Pod::Simple";
 requires "Text::CSV_XS";
 requires "Text::Xslate";
-requires "Text::MiroTemplate";
+requires "Text::MicroTemplate";
 
 # WEB APPLICATION DEVELOPMENT
 requires "Plack";

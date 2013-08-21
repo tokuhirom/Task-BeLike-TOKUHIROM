@@ -8,8 +8,8 @@ This [Task](http://search.cpan.org/perldoc?Task) installs modules that I need to
 
 # MY CRITERION
 
-- I don't like the module breaks backword compatibility.
-- I don't like the module makes slow the my script's starrting up time.
+- I don't like the module breaks backward compatibility.
+- I don't like the module makes slow the my script's starting up time.
 - Simple and small library is great.
 - I don't like the module wraps and it provides ::Easy interface.
 
@@ -75,7 +75,7 @@ I'm using RDBMS for storing data.
 
     [UnQLite](http://search.cpan.org/perldoc?UnQLite) is a great file based key value store.
 
-    [GDBM\_File](http://search.cpan.org/perldoc?GDBM\_File) is also great, but it requireds external C library.
+    [GDBM\_File](http://search.cpan.org/perldoc?GDBM\_File) is also great, but it requires external C library.
 
 - [Teng](http://search.cpan.org/perldoc?Teng)
 
@@ -104,6 +104,16 @@ I'm using RDBMS for storing data.
 
     This is a CSV parser/generator library.
 
+- [Text::Xslate](http://search.cpan.org/perldoc?Text::Xslate)
+
+    The best template engine in Perl5. It's pretty fast.
+    I'm use this in my web applications.
+
+- [Text::MicroTemplate](http://search.cpan.org/perldoc?Text::MicroTemplate)
+
+    Is the embedded Perl. It's written in pure perl.
+    Then, I'm using this for tiny scripts, toolchain stuff, etc.
+
 ## WEB APPLICATION DEVELOPMENT
 
 - [Plack](http://search.cpan.org/perldoc?Plack)
@@ -114,16 +124,48 @@ I'm using RDBMS for storing data.
 
     Amon2 is a lightweight, fast, web application framework.
 
-## POSIX
+- [Starlet](http://search.cpan.org/perldoc?Starlet)
+
+    Is a fast HTTP server written in Perl5.
+
+- [HTML::FillInForm](http://search.cpan.org/perldoc?HTML::FillInForm)
+
+    Fill the stuff to form.
+
+## IMAGE
+
+- [Imager](http://search.cpan.org/perldoc?Imager)
+
+    Imager is the library for image processing.
+
+## HTML/XML
+
+- [XML::LibXML](http://search.cpan.org/perldoc?XML::LibXML)
+
+    Is the fast XML parser library.
+
+- [HTML::TreeBuilder::XPath](http://search.cpan.org/perldoc?HTML::TreeBuilder::XPath)
+
+    Traverse HTML with XPath.
+
+## OPERATING SYSTEM
 
 - [POSIX::AtFork](http://search.cpan.org/perldoc?POSIX::AtFork)
 
     [POSIX::AtFork](http://search.cpan.org/perldoc?POSIX::AtFork) makes to run the code when the process was forked.
     I'm run `srand` and `$dbh-`disconnect> after the forking.
 
-- [Parallel::PreFork](http://search.cpan.org/perldoc?Parallel::PreFork)
+- [Parallel::Prefork](http://search.cpan.org/perldoc?Parallel::Prefork)
 
     I'm use this for writing worker process using Q4M.
+
+- [Filesys::Notify::Simple](http://search.cpan.org/perldoc?Filesys::Notify::Simple)
+
+    This library detects when the files are changed.
+
+- [Linux::Inotify2](http://search.cpan.org/perldoc?Linux::Inotify2)
+
+    It makes faster the [Filesys::Notify::Simple](http://search.cpan.org/perldoc?Filesys::Notify::Simple)
 
 ## NETWORKING
 
@@ -141,7 +183,7 @@ I'm using RDBMS for storing data.
 
 - [AnyEvent](http://search.cpan.org/perldoc?AnyEvent)
 
-    [AnyEvent](http://search.cpan.org/perldoc?AnyEvent) is a framework for I/O multiplesing. I'm use this for writing
+    [AnyEvent](http://search.cpan.org/perldoc?AnyEvent) is a framework for I/O multiplexing. I'm use this for writing
     servers. See also [Coro](http://search.cpan.org/perldoc?Coro).
 
 ## JSON
@@ -167,7 +209,7 @@ I'm using RDBMS for storing data.
 
 - [File::Zglob](http://search.cpan.org/perldoc?File::Zglob)
 
-    It provides zsh like globbing.
+    It provides zsh like glob operation.
 
         zglob('**/*.{pm,pl}')
 
@@ -186,6 +228,11 @@ I'm using RDBMS for storing data.
 - [Moo](http://search.cpan.org/perldoc?Moo)
 
     I use this to say "Hey! Please switch to Moo instead of Moose!".
+
+- [Mouse](http://search.cpan.org/perldoc?Mouse)
+
+    I'm using this in my web applications. Because [Text::Xslate](http://search.cpan.org/perldoc?Text::Xslate) depends to
+    Mouse.
 
 ## TESTING
 

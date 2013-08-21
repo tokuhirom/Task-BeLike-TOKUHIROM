@@ -23,7 +23,7 @@ my %args = (
         'Module::Build' => 0.38,
     },
 
-    name            => 'Task-BeLike-Tokuhirom',
+    name            => 'Task-BeLike-TOKUHIROM',
     module_name     => 'Task::BeLike::TOKUHIROM',
     allow_pureperl => 0,
 

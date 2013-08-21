@@ -24,9 +24,9 @@ This L<Task> installs modules that I need to work with. They are listed in this 
 
 =over 4
 
-=item I don't like the module breaks backword compatibility.
+=item I don't like the module breaks backward compatibility.
 
-=item I don't like the module makes slow the my script's starrting up time.
+=item I don't like the module makes slow the my script's starting up time.
 
 =item Simple and small library is great.
 
@@ -102,7 +102,7 @@ MySQL is also great if you want to store the data from web application.
 
 L<UnQLite> is a great file based key value store.
 
-L<GDBM_File> is also great, but it requireds external C library.
+L<GDBM_File> is also great, but it requires external C library.
 
 =item L<Teng>
 
@@ -144,7 +144,7 @@ This is a CSV parser/generator library.
 The best template engine in Perl5. It's pretty fast.
 I'm use this in my web applications.
 
-=item L<Text::MiroTemplate>
+=item L<Text::MicroTemplate>
 
 Is the embedded Perl. It's written in pure perl.
 Then, I'm using this for tiny scripts, toolchain stuff, etc.
@@ -238,7 +238,7 @@ enables jQuery like operation for HTML.
 
 =item L<AnyEvent>
 
-L<AnyEvent> is a framework for I/O multiplesing. I'm use this for writing
+L<AnyEvent> is a framework for I/O multiplexing. I'm use this for writing
 servers. See also L<Coro>.
 
 =back
@@ -272,7 +272,7 @@ It's great for finding files.
 
 =item L<File::Zglob>
 
-It provides zsh like globbing.
+It provides zsh like glob operation.
 
     zglob('**/*.{pm,pl}')
 
