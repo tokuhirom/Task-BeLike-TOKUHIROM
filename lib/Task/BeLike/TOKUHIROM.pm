@@ -139,6 +139,16 @@ This is the best POD parser library I guess.
 
 This is a CSV parser/generator library.
 
+=item L<Text::Xslate>
+
+The best template engine in Perl5. It's pretty fast.
+I'm use this in my web applications.
+
+=item L<Text::MiroTemplate>
+
+Is the embedded Perl. It's written in pure perl.
+Then, I'm using this for tiny scripts, toolchain stuff, etc.
+
 =back
 
 =head2 WEB APPLICATION DEVELOPMENT
@@ -153,9 +163,41 @@ Plack is the infrastructure for writing web applications.
 
 Amon2 is a lightweight, fast, web application framework.
 
+=item L<Starlet>
+
+Is a fast HTTP server written in Perl5.
+
+=item L<HTML::FillInForm>
+
+Fill the stuff to form.
+
 =back
 
-=head2 POSIX
+=head2 IMAGE
+
+=over 4
+
+=item L<Imager>
+
+Imager is the library for image processing.
+
+=back
+
+=head2 HTML/XML
+
+=over 4
+
+=item L<XML::LibXML>
+
+Is the fast XML parser library.
+
+=item L<HTML::TreeBuilder::XPath>
+
+Traverse HTML with XPath.
+
+=back
+
+=head2 OPERATING SYSTEM
 
 =over 4
 
@@ -164,9 +206,17 @@ Amon2 is a lightweight, fast, web application framework.
 L<POSIX::AtFork> makes to run the code when the process was forked.
 I'm run C<srand> and C<$dbh->disconnect> after the forking.
 
-=item L<Parallel::PreFork>
+=item L<Parallel::Prefork>
 
 I'm use this for writing worker process using Q4M.
+
+=item L<Filesys::Notify::Simple>
+
+This library detects when the files are changed.
+
+=item L<Linux::Inotify2>
+
+It makes faster the L<Filesys::Notify::Simple>
 
 =back
 
@@ -249,6 +299,11 @@ It's really simple accessor library. It does not need to inherit.
 =item L<Moo>
 
 I use this to say "Hey! Please switch to Moo instead of Moose!".
+
+=item L<Mouse>
+
+I'm using this in my web applications. Because L<Text::Xslate> depends to
+Mouse.
 
 =back
 

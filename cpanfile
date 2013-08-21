@@ -22,14 +22,27 @@ requires "Coro";
 requires "Spellunker";
 requires "Pod::Simple";
 requires "Text::CSV_XS";
+requires "Text::Xslate";
+requires "Text::MiroTemplate";
 
 # WEB APPLICATION DEVELOPMENT
 requires "Plack";
 requires "Amon2";
+requires "Starlet";
+requires "HTML::FillInForm";
 
-# POSIX
+# IMAGE
+requires "Imager";
+
+# HTML/XML
+requires "XML::LibXML";
+requires "HTML::TreeBuilder::XPath";
+
+# OPERATING SYSTEM
 requires "POSIX::AtFork";
-requires "Parallel::PreFork";
+requires "Parallel::Prefork";
+requires "Filesys::Notify::Simple";
+requires "Linux::Inotify2";
 
 # NETWORKING
 requires "Furl";
@@ -52,6 +65,7 @@ requires "Devel::NYTProf";
 # CLASS BUILDER
 requires "Class::Accessor::Lite";
 requires "Moo";
+requires "Mouse";
 
 # TESTING
 requires "Test::More";
