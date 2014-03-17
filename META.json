@@ -4,7 +4,7 @@
       "tokuhirom <tokuhirom@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.3, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "Minilla/v0.12.0, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -21,7 +21,8 @@
          "share",
          "eg",
          "examples",
-         "author"
+         "author",
+         "builder"
       ]
    },
    "prereqs" : {
@@ -45,6 +46,7 @@
             "Amon2" : "0",
             "AnyEvent" : "0",
             "App::cpanminus" : "0",
+            "App::scan_prereqs_cpanfile" : "0",
             "Carton" : "0",
             "Class::Accessor::Lite" : "0",
             "Coro" : "0",

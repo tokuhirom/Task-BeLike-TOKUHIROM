@@ -24,3 +24,9 @@ cover_db/
 MYMETA.*
 
 /Task-BeLike-Tokuhirom-*
+/Task-BeLike-TOKUHIROM-*
+/.build
+/_build_params
+/Build.bat
+!Build/
+!META.json

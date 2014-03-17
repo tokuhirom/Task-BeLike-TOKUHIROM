@@ -1,6 +1,7 @@
 
 # TOOLCHAIN
 requires "Minilla";
+requires "App::scan_prereqs_cpanfile";
 requires "App::cpanminus";
 requires "Carton";
 requires "File::ShareDir";

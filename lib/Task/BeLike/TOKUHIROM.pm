@@ -48,6 +48,10 @@ A short time later, I need to switch the original library. *Sigh*
 Minilla is an authoring tool to maintaining CPAN modules.
 It provides best practice for managing your module.
 
+=item L<App::scan_prereqs_cpanfile>
+
+Scan prereqs from library code and generate cpanfile.
+
 =item L<App::cpanminus>
 
 The best CPAN module installer. It's a very simple and useful.
